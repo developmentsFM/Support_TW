@@ -23,35 +23,40 @@
 	    	android:layout_width="fill_parent"
 	    	android:layout_height="match_parent"
 	    	android:layout_weight="1"
-	    	android:gravity="center"/>
+	    	android:gravity="center"
+			android:src="@drawable/ic_home"/>
 		
 		<ImageButton
 	    	android:id="@+id/m2"
 	    	android:layout_width="fill_parent"
 	    	android:layout_height="match_parent"
 	    	android:layout_weight="1"
-	    	android:gravity="center"/>
+	    	android:gravity="center"
+			android:src="@drawable/ic_mail"/>
 		
 		<ImageButton
 	    	android:id="@+id/m3"
 	    	android:layout_width="fill_parent"
 	    	android:layout_height="match_parent"
 	    	android:layout_weight="1"
-	    	android:gravity="center"/>
+	    	android:gravity="center"
+			android:src="@drawable/ic_security"/>
 
 		<ImageButton
 			android:id="@+id/m4"
 			android:layout_width="fill_parent"
 			android:layout_height="match_parent"
 			android:layout_weight="1"
-			android:gravity="center"/>
+			android:gravity="center"
+			android:src="@drawable/ic_settings"/>
 
 		<ImageButton
 			android:id="@+id/m5"
 			android:layout_width="fill_parent"
 			android:layout_height="match_parent"
 			android:layout_weight="1"
-			android:gravity="center"/>
+			android:gravity="center"
+			android:src="@drawable/ic_more2"/>
 
 
     </LinearLayout>
