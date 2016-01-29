@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="1">
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:text="STOP"
+        android:id="@+id/button"
+        android:gravity="center"
+        android:background="@drawable/b_alert"
+        style="bold"
+        android:longClickable="false"
+        android:textColor="#fbfbfb"
+        android:textSize="50dp" />
+
+</LinearLayout>
