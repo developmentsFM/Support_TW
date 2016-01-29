@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Support_TW</string>
+    <string name="gcm_defaultSenderId"> 735035876482</string>
+</resources>
