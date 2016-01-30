@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private static final int PLAY_SERVICES_RESOLUTION_REQUEST = 9000;
     private ProgressDialog dialog;
     private SharedPreferences sharedPreferences;
-    private ImageView refresh;
+
 
     private Button b1, b2, b3, b4;
     private View l1, l2;
@@ -41,10 +41,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
-
-        refresh = (ImageView) findViewById(R.id.refresh);
-        refresh.setOnClickListener(this);
-        refresh.setVisibility(View.GONE);
 
         l1 = (View) findViewById(R.id.includeIN);
         l2 = (View)  findViewById(R.id.includeUP);
@@ -89,11 +85,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         switch (v.getId()){
 
-            case R.id.refresh:
-
-                Toast.makeText(this,"Updating",Toast.LENGTH_LONG).show();
-                break;
-
             case R.id.button_11:
 
                 l1.setVisibility(View.GONE);
@@ -103,6 +94,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.button_12:
 
                 Toast.makeText(this,"Starting",Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(this, TabbedActivity.class);
+                startActivity(intent);
                 break;
 
             case R.id.button_21:

@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.developmentsfm.luisfm.support_tw.TabbedActivity">
+    <item
+        android:id="@+id/action_1"
+        android:orderInCategory="100"
+        android:title="iFilters"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_2"
+        android:orderInCategory="100"
+        android:title="Tickets"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_3"
+        android:orderInCategory="100"
+        android:title="Chat"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_4"
+        android:orderInCategory="100"
+        android:title="Settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_5"
+        android:orderInCategory="100"
+        android:title="Exit"
+        app:showAsAction="never" />
+</menu>

@@ -56,14 +56,15 @@
         <service
             android:name=".RegistrationIntentService"
             android:exported="false" />
-
-        <activity android:name=".MenuActivity" />
-
         <service
             android:name=".Alert_Service"
             android:enabled="true"
-            android:exported="true"></service>
+            android:exported="true" />
 
+        <activity
+            android:name=".TabbedActivity"
+            android:label="@string/title_activity_tabbed"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
